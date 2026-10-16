@@ -1,0 +1,21 @@
+# Supabase CLI (credenciales y estado local del proyecto vinculado)
+.supabase/
+.env
+.env*.local
+supabase/.temp/
+
+# Dumps y backups que puedan contener datos reales
+*.dump
+*.sql.bak
+
+# Logs
+*.log
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+
+# Credenciales sueltas que alguien podría arrastrar por accidente
+*.pem
+*.key
+service-account*.json
